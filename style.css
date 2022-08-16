@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.9s ease all;
+    margin-left: 42%;
+    max-width: 80px;
+
+}
+
+#btn {
+    margin: 70px;
+    max-width: 700px;
+
+
+}
+
+.clock {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg) center;
+    background-repeat: no-repeat;
+    background-size: 88%;
+
+}
+
+.clock img {
+    margin: 0 220px;
+    margin-top: 120px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.secs {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    height: 17rem;
+    width: .3rem;
+    background-color: red;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+
+}
+
+.mins {
+    position: absolute;
+    top: 51%;
+    left: 49%;
+    height: 14rem;
+    width: .5rem;
+    border-radius: 20px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+
+.hours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 8rem;
+    width: .6rem;
+    border-radius: 15px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: black;
+    transform: translateX(-50%);
+
+}
